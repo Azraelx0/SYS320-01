@@ -1,0 +1,30 @@
+#TYPE System.IO.FileInfo
+"PSPath","PSParentPath","PSChildName","PSDrive","PSProvider","PSIsContainer","Mode","VersionInfo","BaseName","Target","LinkType","Name","Length","DirectoryName","Directory","IsReadOnly","Exists","FullName","Extension","CreationTime","CreationTimeUtc","LastAccessTime","LastAccessTimeUtc","LastWriteTime","LastWriteTimeUtc","Attributes"
+"Microsoft.PowerShell.Core\FileSystem::C:\Users\champuser\SYS320-01\week2\Listps1.ps1","Microsoft.PowerShell.Core\FileSystem::C:\Users\champuser\SYS320-01\week2","Listps1.ps1","C","Microsoft.PowerShell.Core\FileSystem","False","-a----","File:             C:\Users\champuser\SYS320-01\week2\Listps1.ps1
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","Listps1","System.Collections.Generic.List`1[System.String]",,"Listps1.ps1","672","C:\Users\champuser\SYS320-01\week2","C:\Users\champuser\SYS320-01\week2","False","True","C:\Users\champuser\SYS320-01\week2\Listps1.ps1",".ps1","9/9/2025 2:54:26 PM","9/9/2025 6:54:26 PM","9/10/2025 1:16:08 AM","9/10/2025 5:16:08 AM","9/10/2025 1:16:08 AM","9/10/2025 5:16:08 AM","Archive"
+"Microsoft.PowerShell.Core\FileSystem::C:\Users\champuser\SYS320-01\week2\ProcessManagement.ps1","Microsoft.PowerShell.Core\FileSystem::C:\Users\champuser\SYS320-01\week2","ProcessManagement.ps1","C","Microsoft.PowerShell.Core\FileSystem","False","-a----","File:             C:\Users\champuser\SYS320-01\week2\ProcessManagement.ps1
+InternalName:     
+OriginalFilename: 
+FileVersion:      
+FileDescription:  
+Product:          
+ProductVersion:   
+Debug:            False
+Patched:          False
+PreRelease:       False
+PrivateBuild:     False
+SpecialBuild:     False
+Language:         
+","ProcessManagement","System.Collections.Generic.List`1[System.String]",,"ProcessManagement.ps1","21","C:\Users\champuser\SYS320-01\week2","C:\Users\champuser\SYS320-01\week2","False","True","C:\Users\champuser\SYS320-01\week2\ProcessManagement.ps1",".ps1","9/9/2025 2:55:08 PM","9/9/2025 6:55:08 PM","9/9/2025 3:05:03 PM","9/9/2025 7:05:03 PM","9/9/2025 3:05:03 PM","9/9/2025 7:05:03 PM","Archive"
