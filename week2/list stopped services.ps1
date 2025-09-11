@@ -1,0 +1,1 @@
+﻿Get-Service | Where-Object {$_.Status -eq "Stopped"} | Sort-Object DisplayName | Export-Csv -Path "$PSScriptRoot/outfolder/out2.csv" -NoTypeInformation
