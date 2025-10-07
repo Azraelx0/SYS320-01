@@ -1,12 +1,12 @@
 ﻿function ParseApacheLogs(){
 $logsnotformatted = Get-Content C:\xampp\apache\logs\access.log
-$tablerecords = @()
+$tableRecords = @()
 
 for ($i=0; $i -lt $logsnotformatted.Count; $i++){
 
 # Split string into words
 $words = $logsnotformatted[$i].Split(" ");
-$tablerecords += [PSCustomObject]@{ "IP" = $words[0]; `
+$tableRecords += [PSCustomObject]@{ "IP" = $words[0]; `
                                     "Time" = $words[3].Trim('['); `
                                     "Method" = $words[5].Trim('"'); `
                                     "Page" = $words[$6]; `
@@ -15,7 +15,7 @@ $tablerecords += [PSCustomObject]@{ "IP" = $words[0]; `
                                     "Referrer" = $words[10]; `
                                     "Client" = $words[11..($words.Length-1)] -join ' '); }
 } # End of for loop
-return $tablerecords | Where-Object {$_.IP -like "10.*"}
+return $tableRecords | Where-Object {$_.IP -like "10.*"}
 }
-$tablerecords = ParseApacheLogs
-$tablerecords | Format-Table -AutoSize -Wrap
+$tableRecords = ParseApacheLogs
+$tableRecords | Format-Table -AutoSize -Wrap

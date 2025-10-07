@@ -1,1 +1,1 @@
-﻿Get-Process | Where-object {$_.Path -notlike "*system32*"}
+﻿Get-Process | Where-object {$_.Path -notlike "*system32*"} | Select Name, Path
