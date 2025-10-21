@@ -29,3 +29,4 @@ $loginoutsTable += [pscustomobject]@{"Time" = $loginouts[$i].TimeGenerated; `
 return $loginoutsTable
 }
 
+getEventLog | Format-table

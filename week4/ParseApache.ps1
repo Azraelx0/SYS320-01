@@ -18,10 +18,10 @@ $tableRecords += [PSCustomObject]@{ "IP" = $words[0]; `
 } # End of for loop
 return $tableRecords | Where-Object { $_.IP -like "10.*" }
 }
-<<<<<<< HEAD
-#$tableRecords = ParseApacheLogs
-#$tableRecords | Format-Table -AutoSize -Wrap
-=======
+#<<<<<<< HEAD
 $tableRecords = ParseApacheLogs
 $tableRecords | Format-Table -AutoSize -Wrap
->>>>>>> d1c6b37e0bfbe5558e932f11c331089442b6f877
+#=======
+$tableRecords = ParseApacheLogs
+$tableRecords | Format-Table -AutoSize -Wrap
+#>>>>>>> d1c6b37e0bfbe5558e932f11c331089442b6f877
