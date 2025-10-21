@@ -34,6 +34,6 @@ for($i=0; $i -lt $FullTable.Length; $i++){
     if($FullTable[$i].Days -ilike "F*"){ $Days += "Friday"}
     $FullTable[$i].Days = $Days
 }
-return $FullTableD
+return $FullTable
 }
 
