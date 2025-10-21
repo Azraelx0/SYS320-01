@@ -19,7 +19,7 @@ $ITSInstructors = $FullTable | Where-Object {($_. "Class Code" -ilike "SYS*") -o
                                              ($_. "Class Code" -ilike "FOR*") -or `
                                              ($_. "Class Code" -ilike "CSI*") -or `
                                              ($_. "Class Code" -ilike "DAT*") } ` 
-                            | Sort-Object "Instructor"
+                            | Sort-Object "Instructor" `
                             | Select-Object "Instructor" -Unique
 $ITSInstructors
 
