@@ -22,19 +22,8 @@ $ITSInstructors = $FullTable | Where-Object {($_. "Class Code" -ilike "SYS*") -o
                                              ($_. "Class Code" -ilike "SEC*") -or `
                                              ($_. "Class Code" -ilike "FOR*") -or `
                                              ($_. "Class Code" -ilike "CSI*") -or `
-<<<<<<< HEAD
                                              ($_. "Class Code" -ilike "DAT*") } | Sort-Object "Instructor" | Select-Object "Instructor" -Unique 
 #$ITSInstructors # Note: Comment out this line when testing next portion
 # Group all instructors by number of classes they teach
 $FullTable | Where-Object {$_.Instructor -in $ITSInstructors.Instructor } `
            | Group-Object "Instructor" | Select-Object Count,Name | Sort-Object Count -Descending
-=======
-                                             ($_. "Class Code" -ilike "DAT*") } ` 
-                            | Sort-Object "Instructor" `
-                            | Select-Object "Instructor" -Unique
-$ITSInstructors
-
-# Group all instructors by number of classes they teach
-$FullTable | Group-Object {$_.Instructor -in $ITSInstructors.Instructor } `
-           | -Property "Instructor" | Select-Object Count,Name | Sort-Object Count -Descending
->>>>>>> 2a664e2b1768f92b70c600b3c40e0e439f8a5aca
