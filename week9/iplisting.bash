@@ -16,7 +16,7 @@ exit 1
 
 for i in {0..254}
 do 
-	#echo $prefix.$i add this back for deliverables 1 and 2
+#	echo $prefix.$i  #comment out to run next lines otherwise keep
 	
 	ping -c 1 $prefix.$i | grep "64 bytes" | \
 	grep -oE "[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}"
