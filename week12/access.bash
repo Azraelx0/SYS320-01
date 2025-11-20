@@ -1,9 +1,12 @@
-File_path="$1"
-Event="$2"
-Recipient="caden.mercer@mymail.champlain.edu"
-Subject="File Access Alert: $File_path"
-echo ""
-Body="The file $File_path was accessed (event:$Event)."
-> fileaccesslog.txt
-echo "$Body" "$Subject" "$Recipient" >> fileaccesslog.txt
-cat fileaccesslog.txt | ssmtp caden.mercer@mymail.champlain.edu
+#!/bin/bash
+
+Logfile="/home/champuser/SYS320-01/week12/fileaccesslog.txt
+Timestamp=$(date '+%Y-%m-%d %H:%M:%S')
+
+echo "[Timestamp] File userlogs-1.bash was accessed" >> "$Logfile"
+
+echo "To: caden.mercer@mymail.champlain.edu" > /tmp/emailform.txt
+echo "Subject: File Access Log" >> /tmp/emailform.txt
+echo " " >> /tmp/emailform.txt
+cat "$Logfile" >> /tmp/emailform.txt
+cat /tmp/emailform.txt | ssmpt caden.mercer@mymail.champlain.edu

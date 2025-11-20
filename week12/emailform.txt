@@ -1,21 +1,5 @@
 To: caden.mercer@mymail.champlain.edu
 Subject: Logins
 
-Nov 13 lightdm
-Nov 13 champuser
-Nov 13 lightdm
-Nov 13 champuser
-Nov 13 13:44:08 xubuntu lightdm: pam_unix(lightdm:auth): authentication failure;
-Nov 13 13:44:12 xubuntu lightdm: pam_unix(lightdm:auth): authentication failure;
-Nov 13 13:44:15 xubuntu lightdm: pam_unix(lightdm:auth): authentication failure;
-Nov 13 13:44:19 xubuntu lightdm: pam_unix(lightdm:auth): authentication failure;
-Nov 13 13:49:50 xubuntu su: pam_unix(su:auth): authentication failure;
-Nov 13 13:50:00 xubuntu sudo: pam_unix(sudo:auth): authentication failure;
-Nov 13 13:50:12 xubuntu su: pam_unix(su:auth): authentication failure;
-Nov 13 14:04:23 xubuntu sudo:   
-Nov 13 14:12:59 xubuntu lightdm: pam_unix(lightdm:auth): authentication failure;
-Nov 13 14:13:04 xubuntu lightdm: pam_unix(lightdm:auth): authentication failure;
-Nov 13 14:13:06 xubuntu lightdm: pam_unix(lightdm:auth): authentication failure;
-Nov 13 14:13:11 xubuntu lightdm: pam_unix(lightdm:auth): authentication failure;
-Nov 13 14:13:15 xubuntu lightdm: pam_unix(lightdm:auth): authentication failure;
-Nov 13 14:13:18 xubuntu lightdm: pam_unix(lightdm:auth): authentication failure;
+
+Nov 20 11:28:57 xubuntu xfce4-screensaver-dialog: pam_unix(xfce4-screensaver:auth): authentication failure;
