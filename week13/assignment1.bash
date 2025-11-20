@@ -41,7 +41,7 @@ function coursesInLocation(){
 	read className
 	echo ""
 	echo "Courses in $className: "
-	cat "$courseFile" | grep "$className" | cut -d ';' -f1,2,5-7 | sed 's/;/ | /g'
+	cat "$courseFile" | grep "$className" | cut -d ';' -f1-2,5-7 | sed 's/;/ | /g'
 }
 
 
